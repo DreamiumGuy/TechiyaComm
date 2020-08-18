@@ -18,10 +18,10 @@
     </head>
     <body>
         <div id="app">
-            <header class="with-background">
+            <header class=" with-background">
                 <div class="top-nav container">
                     <div class="top-nav-left">
-                        <div class="logo">Ecommerce</div>
+                        <div class="logo">Techiya</div>
                         {{ menu('main', 'partials.menus.main') }}
                     </div>
                     <div class="top-nav-right">
@@ -30,12 +30,9 @@
                 </div> <!-- end top-nav -->
                 <div class="hero container">
                     <div class="hero-copy">
-                        <h1>Laravel Ecommerce Demo</h1>
-                        <p>Includes multiple products, categories, a shopping cart and a checkout system with Stripe integration.</p>
-                        <div class="hero-buttons">
-                            <a href="https://www.youtube.com/playlist?list=PLEhEHUEU3x5oPTli631ZX9cxl6cU_sDaR" class="button button-white">Screencasts</a>
-                            <a href="https://github.com/drehimself/laravel-ecommerce-example" class="button button-white">GitHub</a>
-                        </div>
+                        <h1>Techiya</h1>
+                        <h2>The way to go for your Tech needs</h2>
+                    
                     </div> <!-- end hero-copy -->
 
                     <div class="hero-image">
@@ -44,27 +41,7 @@
                 </div> <!-- end hero -->
             </header>
 
-            <div class="featured-section">
-
-                <div class="container">
-                    <h1 class="text-center">Laravel Ecommerce</h1>
-
-                    <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore vitae nisi, consequuntur illum dolores cumque pariatur quis provident deleniti nesciunt officia est reprehenderit sunt aliquid possimus temporibus enim eum hic lorem.</p>
-
-                    <div class="text-center button-container">
-                        <a href="#" class="button">Featured</a>
-                        <a href="#" class="button">On Sale</a>
-                    </div>
-
-                    {{-- <div class="tabs">
-                        <div class="tab">
-                            Featured
-                        </div>
-                        <div class="tab">
-                            On Sale
-                        </div>
-                    </div> --}}
-
+            <div class="featured-section padding-top">
                     <div class="products text-center">
                         @foreach ($products as $product)
                             <div class="product">

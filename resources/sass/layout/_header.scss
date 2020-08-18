@@ -1,5 +1,7 @@
 header.with-background {
-    background: url('/img/triangles.svg');
+    // background: url('/img/triangles.svg');
+    background: rgb(231,92,255);
+background: linear-gradient(0deg, rgba(231,92,255,0.5) 17%, rgba(141,0,166,0.8) 100%);
     background-size: cover;
     color: $white;
 
